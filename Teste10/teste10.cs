@@ -1,5 +1,5 @@
 using System;
-//ESTRETUTURA CONDICIONAL IF ELSE
+//ESTRUTURA CONDICIONAL IF ELSE
 namespace Teste10
 {
     class Teste10
