@@ -48,13 +48,15 @@
             this.ListViewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.MaskedTextBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.MonthCalendarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.NumericUpDownToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.PictureBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuNotify = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.tsmi_Restaurar = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmi_Mensagem = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmi_Close = new System.Windows.Forms.ToolStripMenuItem();
-            this.NumericUpDownToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.PictureBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
+            this.ProgressBarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.RadioButtonToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.MenuNotify.SuspendLayout();
             this.SuspendLayout();
@@ -150,7 +152,9 @@
             this.MaskedTextBoxToolStripMenuItem,
             this.MonthCalendarToolStripMenuItem,
             this.NumericUpDownToolStripMenuItem,
-            this.PictureBoxToolStripMenuItem});
+            this.PictureBoxToolStripMenuItem,
+            this.ProgressBarToolStripMenuItem,
+            this.RadioButtonToolStripMenuItem});
             this.componentesToolStripMenuItem.Name = "componentesToolStripMenuItem";
             this.componentesToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
             this.componentesToolStripMenuItem.Text = "Componentes";
@@ -218,6 +222,20 @@
             this.MonthCalendarToolStripMenuItem.Text = "MonthCalendar";
             this.MonthCalendarToolStripMenuItem.Click += new System.EventHandler(this.MonthCalendarToolStripMenuItem_Click);
             // 
+            // NumericUpDownToolStripMenuItem
+            // 
+            this.NumericUpDownToolStripMenuItem.Name = "NumericUpDownToolStripMenuItem";
+            this.NumericUpDownToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.NumericUpDownToolStripMenuItem.Text = "NumericUpDown";
+            this.NumericUpDownToolStripMenuItem.Click += new System.EventHandler(this.NumericUpDownToolStripMenuItem_Click);
+            // 
+            // PictureBoxToolStripMenuItem
+            // 
+            this.PictureBoxToolStripMenuItem.Name = "PictureBoxToolStripMenuItem";
+            this.PictureBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.PictureBoxToolStripMenuItem.Text = "PictureBox";
+            this.PictureBoxToolStripMenuItem.Click += new System.EventHandler(this.PictureBoxToolStripMenuItem_Click);
+            // 
             // MenuNotify
             // 
             this.MenuNotify.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -227,13 +245,6 @@
             this.MenuNotify.Name = "MenuNotify";
             this.MenuNotify.Size = new System.Drawing.Size(134, 70);
             this.MenuNotify.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.MenuNotify_ItemClicked);
-            // 
-            // notifyIcon1
-            // 
-            this.notifyIcon1.ContextMenuStrip = this.MenuNotify;
-            this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
-            this.notifyIcon1.Text = "Teste53";
-            this.notifyIcon1.Visible = true;
             // 
             // tsmi_Restaurar
             // 
@@ -253,19 +264,26 @@
             this.tsmi_Close.Size = new System.Drawing.Size(133, 22);
             this.tsmi_Close.Text = "Fechar";
             // 
-            // NumericUpDownToolStripMenuItem
+            // notifyIcon1
             // 
-            this.NumericUpDownToolStripMenuItem.Name = "NumericUpDownToolStripMenuItem";
-            this.NumericUpDownToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.NumericUpDownToolStripMenuItem.Text = "NumericUpDown";
-            this.NumericUpDownToolStripMenuItem.Click += new System.EventHandler(this.NumericUpDownToolStripMenuItem_Click);
+            this.notifyIcon1.ContextMenuStrip = this.MenuNotify;
+            this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
+            this.notifyIcon1.Text = "Teste53";
+            this.notifyIcon1.Visible = true;
             // 
-            // PictureBoxToolStripMenuItem
+            // ProgressBarToolStripMenuItem
             // 
-            this.PictureBoxToolStripMenuItem.Name = "PictureBoxToolStripMenuItem";
-            this.PictureBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.PictureBoxToolStripMenuItem.Text = "PictureBox";
-            this.PictureBoxToolStripMenuItem.Click += new System.EventHandler(this.PictureBoxToolStripMenuItem_Click);
+            this.ProgressBarToolStripMenuItem.Name = "ProgressBarToolStripMenuItem";
+            this.ProgressBarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ProgressBarToolStripMenuItem.Text = "ProgressBar";
+            this.ProgressBarToolStripMenuItem.Click += new System.EventHandler(this.ProgressBarToolStripMenuItem_Click);
+            // 
+            // RadioButtonToolStripMenuItem
+            // 
+            this.RadioButtonToolStripMenuItem.Name = "RadioButtonToolStripMenuItem";
+            this.RadioButtonToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.RadioButtonToolStripMenuItem.Text = "RadioButton";
+            this.RadioButtonToolStripMenuItem.Click += new System.EventHandler(this.RadioButtonToolStripMenuItem_Click);
             // 
             // F_Main
             // 
@@ -319,6 +337,8 @@
         private System.Windows.Forms.ToolStripMenuItem tsmi_Close;
         private System.Windows.Forms.ToolStripMenuItem NumericUpDownToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem PictureBoxToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ProgressBarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem RadioButtonToolStripMenuItem;
     }
 }
 

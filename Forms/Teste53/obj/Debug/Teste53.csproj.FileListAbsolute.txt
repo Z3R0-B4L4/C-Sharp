@@ -46,8 +46,6 @@ C:\Users\eduar\Desktop\C#\Forms\Teste53\obj\Debug\Teste53.F_Nomes.resources
 C:\Users\eduar\Desktop\C#\Forms\Teste53\obj\Debug\Teste53.Properties.Resources.resources
 C:\Users\eduar\Desktop\C#\Forms\Teste53\obj\Debug\Teste53.csproj.GenerateResource.cache
 C:\Users\eduar\Desktop\C#\Forms\Teste53\obj\Debug\Teste53.csproj.CoreCompileInputs.cache
-C:\Users\eduar\Desktop\C#\Forms\Teste53\obj\Debug\Teste53.csproj.Fody.CopyLocal.cache
-C:\Users\eduar\Desktop\C#\Forms\Teste53\obj\Debug\Teste53.csproj.Fody.RuntimeCopyLocal.cache
 C:\Users\eduar\Desktop\C#\Forms\Teste53\obj\Debug\Teste53.exe.manifest
 C:\Users\eduar\Desktop\C#\Forms\Teste53\obj\Debug\Teste53.application
 C:\Users\eduar\Desktop\C#\Forms\Teste53\obj\Debug\Teste53.csproj.Up2Date
@@ -62,3 +60,7 @@ C:\Users\eduar\Desktop\C#\Forms\Teste53\obj\Debug\Teste53.F_MaskedTextBox.resour
 C:\Users\eduar\Desktop\C#\Forms\Teste53\obj\Debug\Teste53.F_MonthCalendar.resources
 C:\Users\eduar\Desktop\C#\Forms\Teste53\obj\Debug\Teste53.F_NumericUpDown.resources
 C:\Users\eduar\Desktop\C#\Forms\Teste53\obj\Debug\Teste53.F_PictureBox.resources
+C:\Users\eduar\Desktop\C#\Forms\Teste53\obj\Debug\Teste53.F_ProgressBar.resources
+C:\Users\eduar\Desktop\C#\Forms\Teste53\obj\Debug\Teste53.F_RadioButton.resources
+C:\Users\eduar\Desktop\C#\Forms\Teste53\obj\Debug\Teste53.csproj.Fody.CopyLocal.cache
+C:\Users\eduar\Desktop\C#\Forms\Teste53\obj\Debug\Teste53.csproj.Fody.RuntimeCopyLocal.cache

@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -67,58 +68,58 @@ namespace Teste53
             MessageBox.Show(num.ToString());
         }
 
-        private void checkboxToolStripMenuItem_Click(object sender, EventArgs e)
+        private void checkboxToolStripMenuItem_Click(object sender, EventArgs e)//metodo para mostrar a janela F_CheckBox
         {
             F_CheckBox f_CheckBox = new F_CheckBox();
-            f_CheckBox.ShowDialog();
+            f_CheckBox.Show();
         }
 
-        private void checkedlistToolStripMenuItem_Click(object sender, EventArgs e)
+        private void checkedlistToolStripMenuItem_Click(object sender, EventArgs e)//metodo para mostrar a janela F_CheckedListBox
         {
             F_CheckedListBox f_CheckedListBox = new F_CheckedListBox();
-            f_CheckedListBox.ShowDialog();
+            f_CheckedListBox.Show();
         }
 
-        private void ComboBoxToolStripMenuItem_Click(object sender, EventArgs e)
+        private void ComboBoxToolStripMenuItem_Click(object sender, EventArgs e)//metodo para mostrar a janela F_ComboBox
         {
             F_ComboBox f_ComboBox = new F_ComboBox();
-            f_ComboBox.ShowDialog();
+            f_ComboBox.Show();
         }
 
-        private void DateTimerPickerToolStripMenuItem_Click(object sender, EventArgs e)
+        private void DateTimerPickerToolStripMenuItem_Click(object sender, EventArgs e)//metodo para mostrar a janela F_DateTimerPicker
         {
             F_DateTimerPicker f_DateTimerPicker = new F_DateTimerPicker();
-            f_DateTimerPicker.ShowDialog();
+            f_DateTimerPicker.Show();
         }
 
-        private void LinkLabelToolStripMenuItem_Click(object sender, EventArgs e)
+        private void LinkLabelToolStripMenuItem_Click(object sender, EventArgs e)//metodo para mostrar a janela F_LinkLabel
         {
             F_LinkLabel f_LinkLabel = new F_LinkLabel();
-            f_LinkLabel.ShowDialog();
+            f_LinkLabel.Show();
         }
 
-        private void ListBoxToolStripMenuItem_Click(object sender, EventArgs e)
+        private void ListBoxToolStripMenuItem_Click(object sender, EventArgs e)//metodo para mostrar a janela F_ListBox
         {
             F_ListBox f_ListBox = new F_ListBox();
-            f_ListBox.ShowDialog();
+            f_ListBox.Show();
         }
 
-        private void ListViewToolStripMenuItem_Click(object sender, EventArgs e)
+        private void ListViewToolStripMenuItem_Click(object sender, EventArgs e)//metodo para mostrar a janela F_ListView
         {
             F_ListView f_ListView = new F_ListView();
-            f_ListView.ShowDialog();
+            f_ListView.Show();
         }
 
-        private void MaskedTextBoxToolStripMenuItem_Click(object sender, EventArgs e)
+        private void MaskedTextBoxToolStripMenuItem_Click(object sender, EventArgs e)//metodo para mostrar a janela F_MaskedTextBox
         {
             F_MaskedTextBox f_MaskedTextBox = new F_MaskedTextBox();
-            f_MaskedTextBox.ShowDialog();
+            f_MaskedTextBox.Show();
         }
 
-        private void MonthCalendarToolStripMenuItem_Click(object sender, EventArgs e)
+        private void MonthCalendarToolStripMenuItem_Click(object sender, EventArgs e)//metodo para mostrar a janela F_MonthCalendar
         {
             F_MonthCalendar f_MonthCalendar = new F_MonthCalendar();
-            f_MonthCalendar.ShowDialog();
+            f_MonthCalendar.Show();
         }
 
         private void MenuNotify_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
@@ -136,16 +137,28 @@ namespace Teste53
             
         }
 
-        private void NumericUpDownToolStripMenuItem_Click(object sender, EventArgs e)
+        private void NumericUpDownToolStripMenuItem_Click(object sender, EventArgs e)//metodo para mostrar a janela F_NumericUpDown
         {
             F_NumericUpDown f_NumericUpDown = new F_NumericUpDown();
-            f_NumericUpDown.ShowDialog();
+            f_NumericUpDown.Show();
         }
 
-        private void PictureBoxToolStripMenuItem_Click(object sender, EventArgs e)
+        private void PictureBoxToolStripMenuItem_Click(object sender, EventArgs e)//metodo para mostrar a janela F_PictureBox
         {
             F_PictureBox f_PictureBox = new F_PictureBox();
-            f_PictureBox.ShowDialog();
+            f_PictureBox.Show();
+        }
+
+        private void ProgressBarToolStripMenuItem_Click(object sender, EventArgs e)//metodo para mostrar a janela F_ProgressBar
+        {
+            F_ProgressBar f_ProgressBar = new F_ProgressBar();
+            f_ProgressBar.Show();
+        }
+
+        private void RadioButtonToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_RadioButton f_RadioButton = new F_RadioButton();
+            f_RadioButton.Show();
         }
     }
 }

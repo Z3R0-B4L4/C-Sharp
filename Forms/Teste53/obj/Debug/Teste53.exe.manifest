@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Teste53.exe" size="360416">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Teste53.exe" size="366560">
       <assemblyIdentity name="Teste53" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>JOEL+BlQ0+4dCfmzRAtFr4wJMTo6K0ltHn1c2LS3DKw=</dsig:DigestValue>
+        <dsig:DigestValue>EzVEV1CMlcMJb2BCpzHf7mEWR3RfLnBqwYlFjat26HU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
