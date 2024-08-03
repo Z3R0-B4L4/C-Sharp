@@ -50,13 +50,14 @@
             this.MonthCalendarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.NumericUpDownToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.PictureBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ProgressBarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.RadioButtonToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuNotify = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.tsmi_Restaurar = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmi_Mensagem = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmi_Close = new System.Windows.Forms.ToolStripMenuItem();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
-            this.ProgressBarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.RadioButtonToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.TrackBarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.MenuNotify.SuspendLayout();
             this.SuspendLayout();
@@ -154,7 +155,8 @@
             this.NumericUpDownToolStripMenuItem,
             this.PictureBoxToolStripMenuItem,
             this.ProgressBarToolStripMenuItem,
-            this.RadioButtonToolStripMenuItem});
+            this.RadioButtonToolStripMenuItem,
+            this.TrackBarToolStripMenuItem});
             this.componentesToolStripMenuItem.Name = "componentesToolStripMenuItem";
             this.componentesToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
             this.componentesToolStripMenuItem.Text = "Componentes";
@@ -236,6 +238,20 @@
             this.PictureBoxToolStripMenuItem.Text = "PictureBox";
             this.PictureBoxToolStripMenuItem.Click += new System.EventHandler(this.PictureBoxToolStripMenuItem_Click);
             // 
+            // ProgressBarToolStripMenuItem
+            // 
+            this.ProgressBarToolStripMenuItem.Name = "ProgressBarToolStripMenuItem";
+            this.ProgressBarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ProgressBarToolStripMenuItem.Text = "ProgressBar";
+            this.ProgressBarToolStripMenuItem.Click += new System.EventHandler(this.ProgressBarToolStripMenuItem_Click);
+            // 
+            // RadioButtonToolStripMenuItem
+            // 
+            this.RadioButtonToolStripMenuItem.Name = "RadioButtonToolStripMenuItem";
+            this.RadioButtonToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.RadioButtonToolStripMenuItem.Text = "RadioButton";
+            this.RadioButtonToolStripMenuItem.Click += new System.EventHandler(this.RadioButtonToolStripMenuItem_Click);
+            // 
             // MenuNotify
             // 
             this.MenuNotify.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -271,19 +287,12 @@
             this.notifyIcon1.Text = "Teste53";
             this.notifyIcon1.Visible = true;
             // 
-            // ProgressBarToolStripMenuItem
+            // TrackBarToolStripMenuItem
             // 
-            this.ProgressBarToolStripMenuItem.Name = "ProgressBarToolStripMenuItem";
-            this.ProgressBarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.ProgressBarToolStripMenuItem.Text = "ProgressBar";
-            this.ProgressBarToolStripMenuItem.Click += new System.EventHandler(this.ProgressBarToolStripMenuItem_Click);
-            // 
-            // RadioButtonToolStripMenuItem
-            // 
-            this.RadioButtonToolStripMenuItem.Name = "RadioButtonToolStripMenuItem";
-            this.RadioButtonToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.RadioButtonToolStripMenuItem.Text = "RadioButton";
-            this.RadioButtonToolStripMenuItem.Click += new System.EventHandler(this.RadioButtonToolStripMenuItem_Click);
+            this.TrackBarToolStripMenuItem.Name = "TrackBarToolStripMenuItem";
+            this.TrackBarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.TrackBarToolStripMenuItem.Text = "TrackBar";
+            this.TrackBarToolStripMenuItem.Click += new System.EventHandler(this.TrackBarToolStripMenuItem_Click);
             // 
             // F_Main
             // 
@@ -339,6 +348,7 @@
         private System.Windows.Forms.ToolStripMenuItem PictureBoxToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ProgressBarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem RadioButtonToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem TrackBarToolStripMenuItem;
     }
 }
 

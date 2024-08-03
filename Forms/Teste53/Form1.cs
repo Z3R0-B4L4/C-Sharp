@@ -155,10 +155,16 @@ namespace Teste53
             f_ProgressBar.Show();
         }
 
-        private void RadioButtonToolStripMenuItem_Click(object sender, EventArgs e)
+        private void RadioButtonToolStripMenuItem_Click(object sender, EventArgs e)//metodo para mostrar a janela F_RadioButton
         {
             F_RadioButton f_RadioButton = new F_RadioButton();
             f_RadioButton.Show();
+        }
+
+        private void TrackBarToolStripMenuItem_Click(object sender, EventArgs e)//metodo para mostrar a janela F_TrackBar
+        {
+            F_TrackBar f_TrackBar = new F_TrackBar();
+            f_TrackBar.Show();
         }
     }
 }

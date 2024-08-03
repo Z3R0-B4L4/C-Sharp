@@ -64,3 +64,4 @@ C:\Users\eduar\Desktop\C#\Forms\Teste53\obj\Debug\Teste53.F_ProgressBar.resource
 C:\Users\eduar\Desktop\C#\Forms\Teste53\obj\Debug\Teste53.F_RadioButton.resources
 C:\Users\eduar\Desktop\C#\Forms\Teste53\obj\Debug\Teste53.csproj.Fody.CopyLocal.cache
 C:\Users\eduar\Desktop\C#\Forms\Teste53\obj\Debug\Teste53.csproj.Fody.RuntimeCopyLocal.cache
+C:\Users\eduar\Desktop\C#\Forms\Teste53\obj\Debug\Teste53.F_TrackBar.resources
