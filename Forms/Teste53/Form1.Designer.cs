@@ -58,6 +58,7 @@
             this.tsmi_Close = new System.Windows.Forms.ToolStripMenuItem();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.TrackBarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.TreeViewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.MenuNotify.SuspendLayout();
             this.SuspendLayout();
@@ -156,7 +157,8 @@
             this.PictureBoxToolStripMenuItem,
             this.ProgressBarToolStripMenuItem,
             this.RadioButtonToolStripMenuItem,
-            this.TrackBarToolStripMenuItem});
+            this.TrackBarToolStripMenuItem,
+            this.TreeViewToolStripMenuItem});
             this.componentesToolStripMenuItem.Name = "componentesToolStripMenuItem";
             this.componentesToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
             this.componentesToolStripMenuItem.Text = "Componentes";
@@ -294,6 +296,13 @@
             this.TrackBarToolStripMenuItem.Text = "TrackBar";
             this.TrackBarToolStripMenuItem.Click += new System.EventHandler(this.TrackBarToolStripMenuItem_Click);
             // 
+            // TreeViewToolStripMenuItem
+            // 
+            this.TreeViewToolStripMenuItem.Name = "TreeViewToolStripMenuItem";
+            this.TreeViewToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.TreeViewToolStripMenuItem.Text = "TreeView";
+            this.TreeViewToolStripMenuItem.Click += new System.EventHandler(this.TreeViewToolStripMenuItem_Click);
+            // 
             // F_Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -349,6 +358,7 @@
         private System.Windows.Forms.ToolStripMenuItem ProgressBarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem RadioButtonToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem TrackBarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem TreeViewToolStripMenuItem;
     }
 }
 

@@ -166,5 +166,11 @@ namespace Teste53
             F_TrackBar f_TrackBar = new F_TrackBar();
             f_TrackBar.Show();
         }
+
+        private void TreeViewToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_TreeView f_TreeView = new F_TreeView();
+            f_TreeView.Show();
+        }
     }
 }
