@@ -62,6 +62,10 @@
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.componentes2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.TabControlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.TableLayoutPanelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ToolStripContainerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.BackgroundworkerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.TimerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.MenuNotify.SuspendLayout();
             this.SuspendLayout();
@@ -318,7 +322,11 @@
             // componentes2ToolStripMenuItem
             // 
             this.componentes2ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.TabControlToolStripMenuItem});
+            this.TabControlToolStripMenuItem,
+            this.TableLayoutPanelToolStripMenuItem,
+            this.ToolStripContainerToolStripMenuItem,
+            this.BackgroundworkerToolStripMenuItem,
+            this.TimerToolStripMenuItem});
             this.componentes2ToolStripMenuItem.Name = "componentes2ToolStripMenuItem";
             this.componentes2ToolStripMenuItem.Size = new System.Drawing.Size(103, 20);
             this.componentes2ToolStripMenuItem.Text = "Componentes 2";
@@ -329,6 +337,34 @@
             this.TabControlToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.TabControlToolStripMenuItem.Text = "TabControl";
             this.TabControlToolStripMenuItem.Click += new System.EventHandler(this.TabControlToolStripMenuItem_Click);
+            // 
+            // TableLayoutPanelToolStripMenuItem
+            // 
+            this.TableLayoutPanelToolStripMenuItem.Name = "TableLayoutPanelToolStripMenuItem";
+            this.TableLayoutPanelToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.TableLayoutPanelToolStripMenuItem.Text = "TableLayoutPanel";
+            this.TableLayoutPanelToolStripMenuItem.Click += new System.EventHandler(this.TableLayoutPanelToolStripMenuItem_Click);
+            // 
+            // ToolStripContainerToolStripMenuItem
+            // 
+            this.ToolStripContainerToolStripMenuItem.Name = "ToolStripContainerToolStripMenuItem";
+            this.ToolStripContainerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ToolStripContainerToolStripMenuItem.Text = "ToolStripContainer";
+            this.ToolStripContainerToolStripMenuItem.Click += new System.EventHandler(this.ToolStripContainerToolStripMenuItem_Click);
+            // 
+            // BackgroundworkerToolStripMenuItem
+            // 
+            this.BackgroundworkerToolStripMenuItem.Name = "BackgroundworkerToolStripMenuItem";
+            this.BackgroundworkerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.BackgroundworkerToolStripMenuItem.Text = "Backgroundworker";
+            this.BackgroundworkerToolStripMenuItem.Click += new System.EventHandler(this.BackgroundworkerToolStripMenuItem_Click);
+            // 
+            // TimerToolStripMenuItem
+            // 
+            this.TimerToolStripMenuItem.Name = "TimerToolStripMenuItem";
+            this.TimerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.TimerToolStripMenuItem.Text = "Timer";
+            this.TimerToolStripMenuItem.Click += new System.EventHandler(this.TimerToolStripMenuItem_Click);
             // 
             // F_Main
             // 
@@ -389,6 +425,10 @@
         private System.Windows.Forms.ToolStripMenuItem SplitContainerToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem componentes2ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem TabControlToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem TableLayoutPanelToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ToolStripContainerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem BackgroundworkerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem TimerToolStripMenuItem;
     }
 }
 

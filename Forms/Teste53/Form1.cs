@@ -167,22 +167,46 @@ namespace Teste53
             f_TrackBar.Show();
         }
 
-        private void TreeViewToolStripMenuItem_Click(object sender, EventArgs e)
+        private void TreeViewToolStripMenuItem_Click(object sender, EventArgs e)//metodo para mostrar a janela F_TreeView
         {
             F_TreeView f_TreeView = new F_TreeView();
             f_TreeView.Show();
         }
 
-        private void SplitContainerToolStripMenuItem_Click(object sender, EventArgs e)
+        private void SplitContainerToolStripMenuItem_Click(object sender, EventArgs e)//metodo para mostrar a janela F_SplitContainer
         {
             F_SplitContainer f_SplitContainer = new F_SplitContainer();
             f_SplitContainer.Show();
         }
 
-        private void TabControlToolStripMenuItem_Click(object sender, EventArgs e)
+        private void TabControlToolStripMenuItem_Click(object sender, EventArgs e)//metodo para mostrar a janela F_TabControl
         {
             F_TabControl f_TabControl = new F_TabControl();
             f_TabControl.Show();
+        }
+
+        private void TableLayoutPanelToolStripMenuItem_Click(object sender, EventArgs e)//metodo para mostrar a janela F_TableLayoutPanel
+        {
+            F_TableLayoutPanel f_TableLayoutPanel = new F_TableLayoutPanel();
+            f_TableLayoutPanel.Show();
+        }
+
+        private void ToolStripContainerToolStripMenuItem_Click(object sender, EventArgs e)//metodo para mostrar a janela F_ToolStripContainer
+        {
+            F_ToolStripContainer f_ToolStripContainer = new F_ToolStripContainer();
+            f_ToolStripContainer.Show();
+        }
+
+        private void BackgroundworkerToolStripMenuItem_Click(object sender, EventArgs e)//metodo para mostrar a janela F_Backgroundworker
+        {
+            F_Backgroundworker f_Backgroundworker = new F_Backgroundworker();
+            f_Backgroundworker.Show();
+        }
+
+        private void TimerToolStripMenuItem_Click(object sender, EventArgs e)//metodo para mostrar a janela F_Timer
+        {
+            F_Timer f_Timer = new F_Timer();
+            f_Timer.Show();
         }
     }
 }
