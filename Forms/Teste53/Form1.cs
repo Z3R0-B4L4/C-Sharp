@@ -190,23 +190,5 @@ namespace Teste53
             F_TableLayoutPanel f_TableLayoutPanel = new F_TableLayoutPanel();
             f_TableLayoutPanel.Show();
         }
-
-        private void ToolStripContainerToolStripMenuItem_Click(object sender, EventArgs e)//metodo para mostrar a janela F_ToolStripContainer
-        {
-            F_ToolStripContainer f_ToolStripContainer = new F_ToolStripContainer();
-            f_ToolStripContainer.Show();
-        }
-
-        private void BackgroundworkerToolStripMenuItem_Click(object sender, EventArgs e)//metodo para mostrar a janela F_Backgroundworker
-        {
-            F_Backgroundworker f_Backgroundworker = new F_Backgroundworker();
-            f_Backgroundworker.Show();
-        }
-
-        private void TimerToolStripMenuItem_Click(object sender, EventArgs e)//metodo para mostrar a janela F_Timer
-        {
-            F_Timer f_Timer = new F_Timer();
-            f_Timer.Show();
-        }
     }
 }

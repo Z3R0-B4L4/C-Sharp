@@ -55,17 +55,14 @@
             this.TrackBarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.TreeViewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.SplitContainerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.componentes2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.TabControlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.TableLayoutPanelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuNotify = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.tsmi_Restaurar = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmi_Mensagem = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmi_Close = new System.Windows.Forms.ToolStripMenuItem();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
-            this.componentes2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.TabControlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.TableLayoutPanelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ToolStripContainerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.BackgroundworkerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.TimerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.MenuNotify.SuspendLayout();
             this.SuspendLayout();
@@ -175,114 +172,137 @@
             // checkboxToolStripMenuItem
             // 
             this.checkboxToolStripMenuItem.Name = "checkboxToolStripMenuItem";
-            this.checkboxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.checkboxToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.checkboxToolStripMenuItem.Text = "Checkbox";
             this.checkboxToolStripMenuItem.Click += new System.EventHandler(this.checkboxToolStripMenuItem_Click);
             // 
             // checkedlistToolStripMenuItem
             // 
             this.checkedlistToolStripMenuItem.Name = "checkedlistToolStripMenuItem";
-            this.checkedlistToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.checkedlistToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.checkedlistToolStripMenuItem.Text = "Checkedlistbox";
             this.checkedlistToolStripMenuItem.Click += new System.EventHandler(this.checkedlistToolStripMenuItem_Click);
             // 
             // ComboBoxToolStripMenuItem
             // 
             this.ComboBoxToolStripMenuItem.Name = "ComboBoxToolStripMenuItem";
-            this.ComboBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ComboBoxToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.ComboBoxToolStripMenuItem.Text = "ComboBox";
             this.ComboBoxToolStripMenuItem.Click += new System.EventHandler(this.ComboBoxToolStripMenuItem_Click);
             // 
             // DateTimerPickerToolStripMenuItem
             // 
             this.DateTimerPickerToolStripMenuItem.Name = "DateTimerPickerToolStripMenuItem";
-            this.DateTimerPickerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.DateTimerPickerToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.DateTimerPickerToolStripMenuItem.Text = "DateTimerPicker";
             this.DateTimerPickerToolStripMenuItem.Click += new System.EventHandler(this.DateTimerPickerToolStripMenuItem_Click);
             // 
             // LinkLabelToolStripMenuItem
             // 
             this.LinkLabelToolStripMenuItem.Name = "LinkLabelToolStripMenuItem";
-            this.LinkLabelToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.LinkLabelToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.LinkLabelToolStripMenuItem.Text = "LinkLabel";
             this.LinkLabelToolStripMenuItem.Click += new System.EventHandler(this.LinkLabelToolStripMenuItem_Click);
             // 
             // ListBoxToolStripMenuItem
             // 
             this.ListBoxToolStripMenuItem.Name = "ListBoxToolStripMenuItem";
-            this.ListBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ListBoxToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.ListBoxToolStripMenuItem.Text = "ListBox";
             this.ListBoxToolStripMenuItem.Click += new System.EventHandler(this.ListBoxToolStripMenuItem_Click);
             // 
             // ListViewToolStripMenuItem
             // 
             this.ListViewToolStripMenuItem.Name = "ListViewToolStripMenuItem";
-            this.ListViewToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ListViewToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.ListViewToolStripMenuItem.Text = "ListView";
             this.ListViewToolStripMenuItem.Click += new System.EventHandler(this.ListViewToolStripMenuItem_Click);
             // 
             // MaskedTextBoxToolStripMenuItem
             // 
             this.MaskedTextBoxToolStripMenuItem.Name = "MaskedTextBoxToolStripMenuItem";
-            this.MaskedTextBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.MaskedTextBoxToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.MaskedTextBoxToolStripMenuItem.Text = "MaskedTextBox";
             this.MaskedTextBoxToolStripMenuItem.Click += new System.EventHandler(this.MaskedTextBoxToolStripMenuItem_Click);
             // 
             // MonthCalendarToolStripMenuItem
             // 
             this.MonthCalendarToolStripMenuItem.Name = "MonthCalendarToolStripMenuItem";
-            this.MonthCalendarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.MonthCalendarToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.MonthCalendarToolStripMenuItem.Text = "MonthCalendar";
             this.MonthCalendarToolStripMenuItem.Click += new System.EventHandler(this.MonthCalendarToolStripMenuItem_Click);
             // 
             // NumericUpDownToolStripMenuItem
             // 
             this.NumericUpDownToolStripMenuItem.Name = "NumericUpDownToolStripMenuItem";
-            this.NumericUpDownToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.NumericUpDownToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.NumericUpDownToolStripMenuItem.Text = "NumericUpDown";
             this.NumericUpDownToolStripMenuItem.Click += new System.EventHandler(this.NumericUpDownToolStripMenuItem_Click);
             // 
             // PictureBoxToolStripMenuItem
             // 
             this.PictureBoxToolStripMenuItem.Name = "PictureBoxToolStripMenuItem";
-            this.PictureBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.PictureBoxToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.PictureBoxToolStripMenuItem.Text = "PictureBox";
             this.PictureBoxToolStripMenuItem.Click += new System.EventHandler(this.PictureBoxToolStripMenuItem_Click);
             // 
             // ProgressBarToolStripMenuItem
             // 
             this.ProgressBarToolStripMenuItem.Name = "ProgressBarToolStripMenuItem";
-            this.ProgressBarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ProgressBarToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.ProgressBarToolStripMenuItem.Text = "ProgressBar";
             this.ProgressBarToolStripMenuItem.Click += new System.EventHandler(this.ProgressBarToolStripMenuItem_Click);
             // 
             // RadioButtonToolStripMenuItem
             // 
             this.RadioButtonToolStripMenuItem.Name = "RadioButtonToolStripMenuItem";
-            this.RadioButtonToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.RadioButtonToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.RadioButtonToolStripMenuItem.Text = "RadioButton";
             this.RadioButtonToolStripMenuItem.Click += new System.EventHandler(this.RadioButtonToolStripMenuItem_Click);
             // 
             // TrackBarToolStripMenuItem
             // 
             this.TrackBarToolStripMenuItem.Name = "TrackBarToolStripMenuItem";
-            this.TrackBarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.TrackBarToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.TrackBarToolStripMenuItem.Text = "TrackBar";
             this.TrackBarToolStripMenuItem.Click += new System.EventHandler(this.TrackBarToolStripMenuItem_Click);
             // 
             // TreeViewToolStripMenuItem
             // 
             this.TreeViewToolStripMenuItem.Name = "TreeViewToolStripMenuItem";
-            this.TreeViewToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.TreeViewToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.TreeViewToolStripMenuItem.Text = "TreeView";
             this.TreeViewToolStripMenuItem.Click += new System.EventHandler(this.TreeViewToolStripMenuItem_Click);
             // 
             // SplitContainerToolStripMenuItem
             // 
             this.SplitContainerToolStripMenuItem.Name = "SplitContainerToolStripMenuItem";
-            this.SplitContainerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.SplitContainerToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.SplitContainerToolStripMenuItem.Text = "SplitContainer";
             this.SplitContainerToolStripMenuItem.Click += new System.EventHandler(this.SplitContainerToolStripMenuItem_Click);
+            // 
+            // componentes2ToolStripMenuItem
+            // 
+            this.componentes2ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.TabControlToolStripMenuItem,
+            this.TableLayoutPanelToolStripMenuItem});
+            this.componentes2ToolStripMenuItem.Name = "componentes2ToolStripMenuItem";
+            this.componentes2ToolStripMenuItem.Size = new System.Drawing.Size(103, 20);
+            this.componentes2ToolStripMenuItem.Text = "Componentes 2";
+            // 
+            // TabControlToolStripMenuItem
+            // 
+            this.TabControlToolStripMenuItem.Name = "TabControlToolStripMenuItem";
+            this.TabControlToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.TabControlToolStripMenuItem.Text = "TabControl";
+            this.TabControlToolStripMenuItem.Click += new System.EventHandler(this.TabControlToolStripMenuItem_Click);
+            // 
+            // TableLayoutPanelToolStripMenuItem
+            // 
+            this.TableLayoutPanelToolStripMenuItem.Name = "TableLayoutPanelToolStripMenuItem";
+            this.TableLayoutPanelToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.TableLayoutPanelToolStripMenuItem.Text = "TableLayoutPanel";
+            this.TableLayoutPanelToolStripMenuItem.Click += new System.EventHandler(this.TableLayoutPanelToolStripMenuItem_Click);
             // 
             // MenuNotify
             // 
@@ -318,53 +338,6 @@
             this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
             this.notifyIcon1.Text = "Teste53";
             this.notifyIcon1.Visible = true;
-            // 
-            // componentes2ToolStripMenuItem
-            // 
-            this.componentes2ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.TabControlToolStripMenuItem,
-            this.TableLayoutPanelToolStripMenuItem,
-            this.ToolStripContainerToolStripMenuItem,
-            this.BackgroundworkerToolStripMenuItem,
-            this.TimerToolStripMenuItem});
-            this.componentes2ToolStripMenuItem.Name = "componentes2ToolStripMenuItem";
-            this.componentes2ToolStripMenuItem.Size = new System.Drawing.Size(103, 20);
-            this.componentes2ToolStripMenuItem.Text = "Componentes 2";
-            // 
-            // TabControlToolStripMenuItem
-            // 
-            this.TabControlToolStripMenuItem.Name = "TabControlToolStripMenuItem";
-            this.TabControlToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.TabControlToolStripMenuItem.Text = "TabControl";
-            this.TabControlToolStripMenuItem.Click += new System.EventHandler(this.TabControlToolStripMenuItem_Click);
-            // 
-            // TableLayoutPanelToolStripMenuItem
-            // 
-            this.TableLayoutPanelToolStripMenuItem.Name = "TableLayoutPanelToolStripMenuItem";
-            this.TableLayoutPanelToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.TableLayoutPanelToolStripMenuItem.Text = "TableLayoutPanel";
-            this.TableLayoutPanelToolStripMenuItem.Click += new System.EventHandler(this.TableLayoutPanelToolStripMenuItem_Click);
-            // 
-            // ToolStripContainerToolStripMenuItem
-            // 
-            this.ToolStripContainerToolStripMenuItem.Name = "ToolStripContainerToolStripMenuItem";
-            this.ToolStripContainerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.ToolStripContainerToolStripMenuItem.Text = "ToolStripContainer";
-            this.ToolStripContainerToolStripMenuItem.Click += new System.EventHandler(this.ToolStripContainerToolStripMenuItem_Click);
-            // 
-            // BackgroundworkerToolStripMenuItem
-            // 
-            this.BackgroundworkerToolStripMenuItem.Name = "BackgroundworkerToolStripMenuItem";
-            this.BackgroundworkerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.BackgroundworkerToolStripMenuItem.Text = "Backgroundworker";
-            this.BackgroundworkerToolStripMenuItem.Click += new System.EventHandler(this.BackgroundworkerToolStripMenuItem_Click);
-            // 
-            // TimerToolStripMenuItem
-            // 
-            this.TimerToolStripMenuItem.Name = "TimerToolStripMenuItem";
-            this.TimerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.TimerToolStripMenuItem.Text = "Timer";
-            this.TimerToolStripMenuItem.Click += new System.EventHandler(this.TimerToolStripMenuItem_Click);
             // 
             // F_Main
             // 
@@ -426,9 +399,6 @@
         private System.Windows.Forms.ToolStripMenuItem componentes2ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem TabControlToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem TableLayoutPanelToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ToolStripContainerToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem BackgroundworkerToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem TimerToolStripMenuItem;
     }
 }
 
