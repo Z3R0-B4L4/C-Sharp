@@ -178,5 +178,11 @@ namespace Teste53
             F_SplitContainer f_SplitContainer = new F_SplitContainer();
             f_SplitContainer.Show();
         }
+
+        private void TabControlToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_TabControl f_TabControl = new F_TabControl();
+            f_TabControl.Show();
+        }
     }
 }

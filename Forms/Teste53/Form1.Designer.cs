@@ -54,12 +54,14 @@
             this.RadioButtonToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.TrackBarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.TreeViewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.SplitContainerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuNotify = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.tsmi_Restaurar = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmi_Mensagem = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmi_Close = new System.Windows.Forms.ToolStripMenuItem();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
-            this.SplitContainerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.componentes2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.TabControlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.MenuNotify.SuspendLayout();
             this.SuspendLayout();
@@ -135,7 +137,8 @@
             // 
             this.menuStrip1.BackColor = System.Drawing.SystemColors.Control;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.componentesToolStripMenuItem});
+            this.componentesToolStripMenuItem,
+            this.componentes2ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(264, 24);
@@ -270,6 +273,13 @@
             this.TreeViewToolStripMenuItem.Text = "TreeView";
             this.TreeViewToolStripMenuItem.Click += new System.EventHandler(this.TreeViewToolStripMenuItem_Click);
             // 
+            // SplitContainerToolStripMenuItem
+            // 
+            this.SplitContainerToolStripMenuItem.Name = "SplitContainerToolStripMenuItem";
+            this.SplitContainerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.SplitContainerToolStripMenuItem.Text = "SplitContainer";
+            this.SplitContainerToolStripMenuItem.Click += new System.EventHandler(this.SplitContainerToolStripMenuItem_Click);
+            // 
             // MenuNotify
             // 
             this.MenuNotify.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -305,12 +315,20 @@
             this.notifyIcon1.Text = "Teste53";
             this.notifyIcon1.Visible = true;
             // 
-            // SplitContainerToolStripMenuItem
+            // componentes2ToolStripMenuItem
             // 
-            this.SplitContainerToolStripMenuItem.Name = "SplitContainerToolStripMenuItem";
-            this.SplitContainerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.SplitContainerToolStripMenuItem.Text = "SplitContainer";
-            this.SplitContainerToolStripMenuItem.Click += new System.EventHandler(this.SplitContainerToolStripMenuItem_Click);
+            this.componentes2ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.TabControlToolStripMenuItem});
+            this.componentes2ToolStripMenuItem.Name = "componentes2ToolStripMenuItem";
+            this.componentes2ToolStripMenuItem.Size = new System.Drawing.Size(103, 20);
+            this.componentes2ToolStripMenuItem.Text = "Componentes 2";
+            // 
+            // TabControlToolStripMenuItem
+            // 
+            this.TabControlToolStripMenuItem.Name = "TabControlToolStripMenuItem";
+            this.TabControlToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.TabControlToolStripMenuItem.Text = "TabControl";
+            this.TabControlToolStripMenuItem.Click += new System.EventHandler(this.TabControlToolStripMenuItem_Click);
             // 
             // F_Main
             // 
@@ -369,6 +387,8 @@
         private System.Windows.Forms.ToolStripMenuItem TrackBarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem TreeViewToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem SplitContainerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem componentes2ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem TabControlToolStripMenuItem;
     }
 }
 
