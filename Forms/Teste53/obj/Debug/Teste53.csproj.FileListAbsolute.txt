@@ -66,3 +66,4 @@ C:\Users\eduar\Desktop\C#\Forms\Teste53\obj\Debug\Teste53.csproj.Fody.CopyLocal.
 C:\Users\eduar\Desktop\C#\Forms\Teste53\obj\Debug\Teste53.csproj.Fody.RuntimeCopyLocal.cache
 C:\Users\eduar\Desktop\C#\Forms\Teste53\obj\Debug\Teste53.F_TrackBar.resources
 C:\Users\eduar\Desktop\C#\Forms\Teste53\obj\Debug\Teste53.F_TreeView.resources
+C:\Users\eduar\Desktop\C#\Forms\Teste53\obj\Debug\Teste53.F_SplitContainer.resources

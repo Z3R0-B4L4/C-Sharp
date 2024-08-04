@@ -52,13 +52,14 @@
             this.PictureBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ProgressBarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.RadioButtonToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.TrackBarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.TreeViewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuNotify = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.tsmi_Restaurar = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmi_Mensagem = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmi_Close = new System.Windows.Forms.ToolStripMenuItem();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
-            this.TrackBarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.TreeViewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.SplitContainerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.MenuNotify.SuspendLayout();
             this.SuspendLayout();
@@ -158,7 +159,8 @@
             this.ProgressBarToolStripMenuItem,
             this.RadioButtonToolStripMenuItem,
             this.TrackBarToolStripMenuItem,
-            this.TreeViewToolStripMenuItem});
+            this.TreeViewToolStripMenuItem,
+            this.SplitContainerToolStripMenuItem});
             this.componentesToolStripMenuItem.Name = "componentesToolStripMenuItem";
             this.componentesToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
             this.componentesToolStripMenuItem.Text = "Componentes";
@@ -254,6 +256,20 @@
             this.RadioButtonToolStripMenuItem.Text = "RadioButton";
             this.RadioButtonToolStripMenuItem.Click += new System.EventHandler(this.RadioButtonToolStripMenuItem_Click);
             // 
+            // TrackBarToolStripMenuItem
+            // 
+            this.TrackBarToolStripMenuItem.Name = "TrackBarToolStripMenuItem";
+            this.TrackBarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.TrackBarToolStripMenuItem.Text = "TrackBar";
+            this.TrackBarToolStripMenuItem.Click += new System.EventHandler(this.TrackBarToolStripMenuItem_Click);
+            // 
+            // TreeViewToolStripMenuItem
+            // 
+            this.TreeViewToolStripMenuItem.Name = "TreeViewToolStripMenuItem";
+            this.TreeViewToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.TreeViewToolStripMenuItem.Text = "TreeView";
+            this.TreeViewToolStripMenuItem.Click += new System.EventHandler(this.TreeViewToolStripMenuItem_Click);
+            // 
             // MenuNotify
             // 
             this.MenuNotify.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -289,19 +305,12 @@
             this.notifyIcon1.Text = "Teste53";
             this.notifyIcon1.Visible = true;
             // 
-            // TrackBarToolStripMenuItem
+            // SplitContainerToolStripMenuItem
             // 
-            this.TrackBarToolStripMenuItem.Name = "TrackBarToolStripMenuItem";
-            this.TrackBarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.TrackBarToolStripMenuItem.Text = "TrackBar";
-            this.TrackBarToolStripMenuItem.Click += new System.EventHandler(this.TrackBarToolStripMenuItem_Click);
-            // 
-            // TreeViewToolStripMenuItem
-            // 
-            this.TreeViewToolStripMenuItem.Name = "TreeViewToolStripMenuItem";
-            this.TreeViewToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.TreeViewToolStripMenuItem.Text = "TreeView";
-            this.TreeViewToolStripMenuItem.Click += new System.EventHandler(this.TreeViewToolStripMenuItem_Click);
+            this.SplitContainerToolStripMenuItem.Name = "SplitContainerToolStripMenuItem";
+            this.SplitContainerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.SplitContainerToolStripMenuItem.Text = "SplitContainer";
+            this.SplitContainerToolStripMenuItem.Click += new System.EventHandler(this.SplitContainerToolStripMenuItem_Click);
             // 
             // F_Main
             // 
@@ -359,6 +368,7 @@
         private System.Windows.Forms.ToolStripMenuItem RadioButtonToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem TrackBarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem TreeViewToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem SplitContainerToolStripMenuItem;
     }
 }
 

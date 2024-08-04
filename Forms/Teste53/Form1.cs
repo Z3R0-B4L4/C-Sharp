@@ -172,5 +172,11 @@ namespace Teste53
             F_TreeView f_TreeView = new F_TreeView();
             f_TreeView.Show();
         }
+
+        private void SplitContainerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_SplitContainer f_SplitContainer = new F_SplitContainer();
+            f_SplitContainer.Show();
+        }
     }
 }
