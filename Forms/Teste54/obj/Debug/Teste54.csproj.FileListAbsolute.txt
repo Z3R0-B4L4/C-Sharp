@@ -26,3 +26,4 @@ C:\Users\eduar\Desktop\C#\Forms\Teste54\obj\Debug\Teste54.csproj.Fody.RuntimeCop
 C:\Users\eduar\Desktop\C#\Forms\Teste54\obj\Debug\Teste54.csproj.Up2Date
 C:\Users\eduar\Desktop\C#\Forms\Teste54\obj\Debug\Teste54.exe
 C:\Users\eduar\Desktop\C#\Forms\Teste54\obj\Debug\Teste54.pdb
+C:\Users\eduar\Desktop\C#\Forms\Teste54\obj\Debug\Teste54.F_login.resources

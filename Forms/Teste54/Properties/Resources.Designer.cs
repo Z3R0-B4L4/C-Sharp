@@ -63,9 +63,9 @@ namespace Teste54.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap circulo {
+        internal static System.Drawing.Bitmap led_verde {
             get {
-                object obj = ResourceManager.GetObject("circulo", resourceCulture);
+                object obj = ResourceManager.GetObject("led_verde", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace Teste54.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap redondo {
+        internal static System.Drawing.Bitmap led_vermelho {
             get {
-                object obj = ResourceManager.GetObject("redondo", resourceCulture);
+                object obj = ResourceManager.GetObject("led_vermelho", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
