@@ -35,5 +35,74 @@ namespace Teste54
             Globais.acessLevel = 0;
             Globais.loginStatus = false;
         }
+
+        private void bancoDeDadosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if(Globais.loginStatus == true)
+            {
+                if(Globais.acessLevel >= 3)
+                {
+
+                }
+                else
+                {
+                    MessageBox.Show("Você não possui permissão para acessar esse recurso");
+                }
+            }
+            else
+            {
+                MessageBox.Show("è nescessário realizar o login para acessar o sistema");
+            }
+        }
+
+        private void novoUsuarioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (Globais.loginStatus == true)
+            {
+                if (Globais.acessLevel >= 2)
+                {
+
+                }
+                else
+                {
+                    MessageBox.Show("Você não possui permissão para acessar esse recurso");
+                }
+            }
+            else
+            {
+                MessageBox.Show("è nescessário realizar o login para acessar o sistema");
+            }
+        }
+
+        private void gestãoDeUsuariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (Globais.loginStatus == true)
+            {
+                if (Globais.acessLevel >= 2)
+                {
+
+                }
+                else
+                {
+                    MessageBox.Show("Você não possui permissão para acessar esse recurso");
+                }
+            }
+            else
+            {
+                MessageBox.Show("è nescessário realizar o login para acessar o sistema");
+            }
+        }
+
+        private void novoAlunoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (Globais.loginStatus == true)
+            {
+
+            }
+            else
+            {
+                MessageBox.Show("è nescessário realizar o login para acessar o sistema");
+            }
+        }
     }
 }
