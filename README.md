@@ -102,4 +102,6 @@ Teste 51 - LIST
 
 Teste 52 - QUEUE
 
-Teste 53 - Componentes do Windows Forms (execultavel portavel no seguinte caminho: "Forms\Teste53\bin\Debug\app.publish")
+Teste 53 - Componentes do Windows Forms
+
+Teste 54 - Implementação de um banco de dados usando mysql (CRUD) - Em Desenvolvimento
